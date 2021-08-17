@@ -29,15 +29,8 @@ void selectionSort(int *array, int size){
 }
 
 int main(){
-    cout << "Enter the number of elements: ";
-    int n;
-    cin >> n;
-    int arr[n]; //create an array with given number of elements
-    cout << "Enter elements:" << endl;
-    for (int i = 0; i < n; i++)
-    {
-        cin >> arr[i];
-    }
+    int n = 6;
+    int arr[] = {10, 7, 8, 9, 1, 5};
     cout << "\nArray before Sorting: ";
     display(arr, n);
     selectionSort(arr, n);
